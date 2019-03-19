@@ -1,0 +1,10 @@
+2017-10-17 16:55:44 ERROR  : ERROR:  database "demo" is being accessed by other users
+DETAIL:  There are 27 other sessions using the database.
+2017-11-01 09:57:01 ERROR  : ERROR:  column "primary_ed" does not exist
+2017-11-01 10:55:07 ERROR  : ERROR:  duplicate key value violates unique constraint "inprisonphonetx_pkey"
+DETAIL:  Key (called_number)=((919) 281-8429) already exists.
+2017-11-01 10:58:44 ERROR  : ERROR:  relation "aiuserdata.inprisonphonetx" does not exist
+LINE 1: UPDATE aiuserdata.inprisonphonetx SET called_number='(919) 2...
+               ^
+2017-11-01 11:44:48 ERROR  : ERROR:  column "current_bed_assignment" does not exist
+2017-11-01 11:45:03 ERROR  : ERROR:  column "current_bed_assignment" does not exist
